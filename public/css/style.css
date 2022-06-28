@@ -1,0 +1,59 @@
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  background-color: #312F2F;
+}
+
+body {
+  background-color:#84DCCF;
+}
+
+.title {
+  box-shadow: 5px 5px #63a39a;
+  border-radius: 5px;
+  background-color: #84DCCF;
+}
+
+.title a {
+  color: #312F2F;
+  margin: 15px;
+
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: none;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.start button {
+  display: flex;
+  justify-content: center;
+}
+
+.topofPage {
+  display: flex;
+  justify-content:space-between;
+}
+
+.description {
+  text-align: center;
+}
